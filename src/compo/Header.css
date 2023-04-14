@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(154, 140, 140);
+  color: azure;
+
+  width: 100%;
+  z-index: 10;
+}
+
+header .logo h3 {
+  font-size: 30px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s;
+}
+nav ul li a:hover {
+  color: rgb(65, 53, 38);
+}
+
+@media screen and (max-width: 959px) {
+  /* 959px以下に適用されるCSS（タブレット用） */
+}
+@media screen and (max-width: 480px) {
+  /* 480px以下に適用されるCSS（スマホ用） */
+  header .logo h3 {
+    font-size: 20px;
+  }
+  nav ul li a {
+    font-size: 13px;
+  }
+}

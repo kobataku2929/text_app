@@ -1,0 +1,105 @@
+.addPost {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 130px;
+  margin-top: 150px;
+}
+
+.bookname {
+  height: 40px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.author {
+  height: 40px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.company {
+  height: 40px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.state {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+.button {
+  height: 40px;
+  margin-top: 15px !important;
+  font-size: 20px !important;
+}
+
+.container {
+  position: relative;
+}
+
+.state-discription {
+  position: absolute;
+  top: 170px;
+  left: 300px;
+  font-size: 20px;
+}
+
+.state-ditail {
+  position: absolute;
+  top: -40px;
+  left: 800px;
+}
+.state-ditail h4 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.state-wirte ul {
+  text-align: left;
+  font-size: 20px;
+}
+
+.state-wirte ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.state-wirte ul li span {
+  color: darksalmon;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 959px) {
+  /* 959px以下に適用されるCSS（タブレット用） */
+  .state-ditail {
+    position: absolute;
+    top: 350px;
+    left: 170px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* 480px以下に適用されるCSS（スマホ用） */
+  .addPost {
+    width: 280px;
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+  .state-discription {
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    font-size: 15px;
+  }
+  .state-ditail {
+    position: absolute;
+    top: 300px;
+    left: 0px;
+  }
+  .state-ditail h4 {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .state-wirte ul {
+    text-align: left;
+    font-size: 15px;
+  }
+}

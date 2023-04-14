@@ -1,0 +1,60 @@
+.main {
+  display: block;
+  margin-top: 60px;
+}
+
+.searchbox {
+  width: 500px;
+  height: 30px;
+  margin-bottom: 50px;
+}
+
+.results {
+  margin-left: 200px;
+}
+.result {
+  text-align: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.result span {
+  font-size: 12px;
+  padding-right: 5px;
+}
+.result-book-name {
+  margin: 0px;
+}
+.result-author {
+  margin: 0px !important;
+}
+.result-company {
+  margin: 0px !important;
+}
+.result-book-state {
+  margin: 0px;
+}
+@media screen and (max-width: 959px) {
+  /* 959px以下に適用されるCSS（タブレット用） */
+
+  .results {
+    margin-left: 10px;
+  }
+  .result {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* 480px以下に適用されるCSS（スマホ用） */
+  .searchbox {
+    width: 200px;
+  }
+  .result {
+    font-size: 60%;
+  }
+  .result-book-name {
+    font-size: 70% !important;
+  }
+}
