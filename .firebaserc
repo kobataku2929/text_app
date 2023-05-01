@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "textapp-cb65a"
-  }
+    "default": "textapp-cb65a",
+    "dev": "textapp-cb65a",
+    "prod": "textapp-cb65a"
+  },
+  "targets": {},
+  "etags": {}
 }

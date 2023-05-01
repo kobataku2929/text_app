@@ -32,28 +32,28 @@ function AddPost() {
       <div className="addPosts">
         <form method="post" className="addPost">
           <input
-            className="bookname"
+            className="addBookname"
             value={postBookName}
             placeholder="教科書名"
             type="text"
             onChange={(e) => setPostBookName(e.target.value)}
           ></input>
           <input
-            className="author"
+            className="addAuthor"
             value={postAutor}
             placeholder="著者名"
             type="text"
             onChange={(e) => setPostAutor(e.target.value)}
           ></input>
           <input
-            className="company"
+            className="addCompany"
             value={postCompany}
             placeholder="出版社・発行所名"
             type="text"
             onChange={(e) => setPostCompany(e.target.value)}
           ></input>
           <input
-            className="state"
+            className="addState"
             value={postBookState}
             placeholder=""
             type="number"
@@ -80,7 +80,7 @@ function AddPost() {
 
       <div className="state-ditail">
         <h4>Gradeの選び方</h4>
-        <div className="state-wirte">
+        <div className="state-howToWrite">
           <ul>
             <li>
               Grade <span>4</span> 新品、未使用

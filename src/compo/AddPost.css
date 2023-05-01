@@ -6,22 +6,22 @@
   margin-top: 150px;
 }
 
-.bookname {
+.addBookname {
   height: 40px;
   margin-bottom: 15px;
   font-size: 18px;
 }
-.author {
+.addAuthor {
   height: 40px;
   margin-bottom: 15px;
   font-size: 18px;
 }
-.company {
+.addCompany {
   height: 40px;
   margin-bottom: 15px;
   font-size: 18px;
 }
-.state {
+.addState {
   width: 40px;
   height: 40px;
   font-size: 18px;
@@ -54,16 +54,16 @@
   font-size: 30px;
   margin-bottom: 40px;
 }
-.state-wirte ul {
+.state-howToWrite ul {
   text-align: left;
   font-size: 20px;
 }
 
-.state-wirte ul li {
+.state-howToWrite ul li {
   list-style: none;
   margin-bottom: 10px;
 }
-.state-wirte ul li span {
+.state-howToWrite ul li span {
   color: darksalmon;
   font-size: 20px;
 }
@@ -98,7 +98,7 @@
     font-size: 20px;
     margin-bottom: 40px;
   }
-  .state-wirte ul {
+  .state-howToWrite ul {
     text-align: left;
     font-size: 15px;
   }
