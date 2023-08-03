@@ -9,6 +9,9 @@ export const SearchBook = () => {
 
   const [searchQuery, setSearchQuery] = useState([]);
   const ref = useRef();
+  useEffect(() => {
+    ref.current.focus();
+  }, []);
 
   const handleSearch = () => {
     setSearchQuery(
